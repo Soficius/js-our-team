@@ -28,7 +28,7 @@ const team =[
     { 
         nome: 'Scott Estrada ',
         ruolo: 'Developer',
-        foto: 'scott-estrada-office-manager.jpg'
+        foto: 'scott-estrada-developer.jpg'
     },
     { 
         nome: 'Barbara Ramos',
@@ -46,11 +46,12 @@ function createElementFromContact(contact){
     const container = document.createElement('div')
     const nome = document.createElement('p')
     const ruolo = document.createElement('p')
-    const foto = document.createElement('p')
+    const foto = document.createElement('img')
 
+    container.className = 'col-4'
     nome.innerText = contact.nome
     ruolo.innerText = contact.ruolo
-    foto.innerText = contact.foto
+    foto.src = 'img/'+contact.foto
 
     container.appendChild(foto)
     container.appendChild(nome)
