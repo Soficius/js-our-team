@@ -44,11 +44,11 @@ for(let key in team){
 //* Stampare le stesse informazioni su DOM sottoforma di stringhe
 function createElementFromContact(contact){
     const container = document.createElement('div')
-    const nome = document.createElement('p')
-    const ruolo = document.createElement('p')
+    const nome = document.createElement('h2')
+    const ruolo = document.createElement('h4')
     const foto = document.createElement('img')
 
-    container.className = 'col-4'
+    container.className = 'col-4 text-center'
     nome.innerText = contact.nome
     ruolo.innerText = contact.ruolo
     foto.src = 'img/'+contact.foto
