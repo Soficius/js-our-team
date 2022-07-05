@@ -12,8 +12,40 @@
 // Organizzare i singoli membri in card/schede e ispirarci alle grafiche in allegato
 
 // * creare un array di oggetti con le informazioni fornite
-const team =[{
-    nome: 'Wayne Barnett',
-    ruolo: 'Founder & CEO',
-    foto: 'wayne-barnett-founder-ceo.jpg',
-}]
+const team =[
+    {
+        nome: 'Wayne Barnett',
+        ruolo: 'Founder & CEO',
+        foto: 'wayne-barnett-founder-ceo.jpg'
+    },
+    {
+        nome: 'Angela Caroll',
+        ruolo: 'Chief Editor',
+        foto: 'angela-caroll-chief-editor.jpg'
+    },
+   {
+        nome: 'Walter Gordon ',
+        ruolo: 'Office Manager',
+        foto: 'walter-gordon-office-manager.jpg'
+    },
+    
+    {
+        nome: 'Angela Lopez',
+        ruolo: 'Social Media Manager',
+        foto: 'angela-lopez-social-media-manager.jpg'
+    },
+   { 
+        nome: 'Scott Estrada ',
+        ruolo: 'Developer',
+        foto: 'scott-estrada-office-manager.jpg'
+    },
+   { 
+        nome: 'Barbara Ramos',
+        ruolo: 'Graphic Designer',
+        foto: 'barbara-ramos-graphic-designer.jpg'
+    }]
+
+//* Stampare su console le informazioni di nome, ruolo e la stringa della foto
+for(let key in team){
+    console.log(team[key])
+}
