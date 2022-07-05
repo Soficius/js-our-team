@@ -12,3 +12,8 @@
 // Organizzare i singoli membri in card/schede e ispirarci alle grafiche in allegato
 
 // * creare un array di oggetti con le informazioni fornite
+const team =[{
+    nome: 'Wayne Barnett',
+    ruolo: 'Founder & CEO',
+    foto: 'wayne-barnett-founder-ceo.jpg',
+}]
